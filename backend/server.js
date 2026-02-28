@@ -21,7 +21,7 @@ app.use(express.urlencoded({ extended: true }));
 app.use(cookieParser());
 app.use(
   cors({
-    origin: "https://insurance-platform-opal.vercel.app/",
+    origin: "https://insurance-platform-opal.vercel.app",
     credentials: true,
   })
 );
