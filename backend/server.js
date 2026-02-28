@@ -21,7 +21,7 @@ app.use(express.urlencoded({ extended: true }));
 app.use(cookieParser());
 app.use(
   cors({
-    origin: "https://insurance-platform-nyod.onrender.com/",
+    origin: "https://insurance-platform-two.vercel.app/",
     credentials: true,
   })
 );
