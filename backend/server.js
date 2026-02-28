@@ -21,7 +21,7 @@ app.use(express.urlencoded({ extended: true }));
 app.use(cookieParser());
 app.use(
   cors({
-    origin: "https://insurance-platform-aoc5dpzse-ansh157s-projects.vercel.app",
+    origin: "https://insurance-platform-wine.vercel.app",
     credentials: true,
   })
 );
